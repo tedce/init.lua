@@ -22,6 +22,7 @@ My ideal coding scenario is to have a minimal ui that still provides the robust 
 
 I had to install a few packages at the terminal, but not many. 
 
+- Neovim >= 0.8
 - [Packer](https://github.com/wbthomason/packer.nvim)
 - Mercurial (aka hg) - this was necessary for the neovim-fuzzy plugin to work
 - [Ripgrep](https://github.com/BurntSushi/ripgrep)
@@ -31,3 +32,9 @@ I had to install a few packages at the terminal, but not many.
 ### Keymaps
 
 Keymaps beyond the default can be found in the `after/plugin` directory where remaps are configured based on each specific plugin
+
+### How to Use
+
+- Install listed dependencies if not installed
+- Clone repo and move to config folder `git clone https://github.com/tedce/init.lua ~/.config/nvim`
+- Open nvim and run `:PackerSync` to install plugins

@@ -37,4 +37,6 @@ Keymaps beyond the default can be found in the `after/plugin` directory where re
 
 - Install listed dependencies if not installed
 - Clone repo and move to config folder `git clone https://github.com/tedce/init.lua ~/.config/nvim`
+- Open ~/.config/nvim/lua/plugins.lua file and source the file `:so`
 - Open nvim and run `:PackerSync` to install plugins
+- Exit nvim and reopen!
